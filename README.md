@@ -1,7 +1,8 @@
 # Multi Scale Texture Loss Function for CT denoising with GANs
 
-<img width="811" alt="Screenshot 2024-02-23 at 12 28 55" src="https://github.com/FrancescoDiFeola/DenoTextureLoss/assets/114158160/bb52661c-d798-4e56-b482-5815634a3ff7">
+
+![Screenshot 2024-12-18 at 10 32 15](https://github.com/user-attachments/assets/d2cfb70f-e2e1-4db2-aa39-4cedce988b55)
 
 
 
-Overall framework of MSTLF. (a) MSTLF mainly includes two essential components, i.e., Multi-Scale Texture Extractor (MSTE) and Aggregation Module (AM). (b) MSTE module and (c) dynamic aggregation by self attention mechanism.
+Overall framework of MSTLF. (a) MSTLF mainly includes two essential components, i.e., the Multi-Scale Texture Extractor (MSTE) and the Aggregation Module (AM). We denote the selection of the aggregation rule with the logic operators demux and mux. (b) MSTE module extracting a textural representation from the input images using a texture descriptor extracted from the GLCMs at different spatial and angular scales. (c) Dynamic aggregation by Self-Attention mechanism (SA) that combines the extracted representation into a scalar loss function
